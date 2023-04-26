@@ -3,7 +3,7 @@ import Avatar from '../Avatar'
 import { MenuOutlined } from '@ant-design/icons'
 import vlad from '../../1.jpg'
 
-const Post = () => {
+const Post = ({posts, setPosts}) => {
     return (
         <div className='shadow-lg rounded'>
             <div className='p-3'>
@@ -21,7 +21,7 @@ const Post = () => {
             </div>
             <img
                 src=''
-                alt=''
+                alt='photo'
             />
         </div>
     )
